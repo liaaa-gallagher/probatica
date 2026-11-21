@@ -1,0 +1,262 @@
+{
+  "accounts": [
+    {
+      "id": "stu-101",
+      "name": "Maya Lin",
+      "role": "student",
+      "identifier": "STU-101",
+      "password": "learn2026",
+      "className": "Grade 8A"
+    },
+    {
+      "id": "stu-102",
+      "name": "Daniel Carter",
+      "role": "student",
+      "identifier": "STU-102",
+      "password": "learn2026",
+      "className": "Grade 8A"
+    },
+    {
+      "id": "stu-103",
+      "name": "Sofia Patel",
+      "role": "student",
+      "identifier": "STU-103",
+      "password": "learn2026",
+      "className": "Grade 8B"
+    },
+    {
+      "id": "tch-01",
+      "name": "Prof. Eleanor Vance",
+      "role": "teacher",
+      "identifier": "TCH-01",
+      "password": "teach2026"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-seed-1",
+      "studentId": "stu-102",
+      "studentName": "Daniel Carter",
+      "studentIdentifier": "STU-102",
+      "className": "Grade 8A",
+      "answers": {
+        "1": "A",
+        "2": "B",
+        "3": "B",
+        "4": "B",
+        "5": "B",
+        "6": "C",
+        "7": "C",
+        "8": "C",
+        "9": "D",
+        "10": "B",
+        "11": "A",
+        "12": "B"
+      },
+      "gradedAnswers": [
+        {
+          "questionId": 1,
+          "selectedOption": "A",
+          "correctOption": "A",
+          "isCorrect": true,
+          "explanation": "Empirical probability is the number of favorable experimental outcomes divided by the total number of trials: 32 / 60."
+        },
+        {
+          "questionId": 2,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Since Tails appeared 32 times out of 60 tosses, Heads appeared 60 - 32 = 28 times. Therefore, P(H) = 28 / 60."
+        },
+        {
+          "questionId": 3,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Both curved sectors partition the same circle into two congruent halves of equal area, giving each child an equal probability of 1/2."
+        },
+        {
+          "questionId": 4,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Out of 20 tosses, 12 were Heads, leaving 20 - 12 = 8 Tails. The empirical probability of Tails is 8 / 20."
+        },
+        {
+          "questionId": 5,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Empirical (experimental) probability is calculated directly from observed frequencies in an actual experiment or trial."
+        },
+        {
+          "questionId": 6,
+          "selectedOption": "C",
+          "correctOption": "C",
+          "isCorrect": true,
+          "explanation": "For a fair coin, there are 2 equally likely outcomes (Heads or Tails) regardless of how many times it is tossed, so the theoretical probability of Heads is 1/2."
+        },
+        {
+          "questionId": 7,
+          "selectedOption": "C",
+          "correctOption": "C",
+          "isCorrect": true,
+          "explanation": "The prime numbers on a standard six-sided die {1, 2, 3, 4, 5, 6} are 2, 3, and 5 (3 outcomes out of 6), giving 3/6."
+        },
+        {
+          "questionId": 8,
+          "selectedOption": "C",
+          "correctOption": "C",
+          "isCorrect": true,
+          "explanation": "The odd numbers on a standard six-sided die are 1, 3, and 5 (3 outcomes out of 6), so the probability is 3/6."
+        },
+        {
+          "questionId": 9,
+          "selectedOption": "D",
+          "correctOption": "D",
+          "isCorrect": true,
+          "explanation": "Between 1 and 12, the even numbers are 2, 4, 6, 8, 10, and 12 (6 outcomes out of 12), giving 6/12."
+        },
+        {
+          "questionId": 10,
+          "selectedOption": "B",
+          "correctOption": "C",
+          "isCorrect": false,
+          "explanation": "Between 1 and 12, the prime numbers are 2, 3, 5, 7, and 11 (remember 1 is not prime). That is 5 outcomes out of 12, so 5/12."
+        },
+        {
+          "questionId": 11,
+          "selectedOption": "A",
+          "correctOption": "A",
+          "isCorrect": true,
+          "explanation": "Rolling a 7 on a standard six-sided die is an impossible event, so its probability is 0."
+        },
+        {
+          "questionId": 12,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Every probability value lies on the closed interval [0, 1], where 0 represents an impossible event and 1 represents a certain event."
+        }
+      ],
+      "correctCount": 11,
+      "totalQuestions": 12,
+      "scorePercent": 92,
+      "durationSeconds": 412,
+      "submittedAt": "2026-11-18T10:02:57.064Z"
+    },
+    {
+      "id": "sub-seed-2",
+      "studentId": "stu-103",
+      "studentName": "Sofia Patel",
+      "studentIdentifier": "STU-103",
+      "className": "Grade 8B",
+      "answers": {
+        "1": "A",
+        "2": "B",
+        "3": "C",
+        "4": "B",
+        "5": "A",
+        "6": "C",
+        "7": "B",
+        "8": "C",
+        "9": "D",
+        "10": "C",
+        "11": "A",
+        "12": "B"
+      },
+      "gradedAnswers": [
+        {
+          "questionId": 1,
+          "selectedOption": "A",
+          "correctOption": "A",
+          "isCorrect": true,
+          "explanation": "Empirical probability is the number of favorable experimental outcomes divided by the total number of trials: 32 / 60."
+        },
+        {
+          "questionId": 2,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Since Tails appeared 32 times out of 60 tosses, Heads appeared 60 - 32 = 28 times. Therefore, P(H) = 28 / 60."
+        },
+        {
+          "questionId": 3,
+          "selectedOption": "C",
+          "correctOption": "B",
+          "isCorrect": false,
+          "explanation": "Both curved sectors partition the same circle into two congruent halves of equal area, giving each child an equal probability of 1/2."
+        },
+        {
+          "questionId": 4,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Out of 20 tosses, 12 were Heads, leaving 20 - 12 = 8 Tails. The empirical probability of Tails is 8 / 20."
+        },
+        {
+          "questionId": 5,
+          "selectedOption": "A",
+          "correctOption": "B",
+          "isCorrect": false,
+          "explanation": "Empirical (experimental) probability is calculated directly from observed frequencies in an actual experiment or trial."
+        },
+        {
+          "questionId": 6,
+          "selectedOption": "C",
+          "correctOption": "C",
+          "isCorrect": true,
+          "explanation": "For a fair coin, there are 2 equally likely outcomes (Heads or Tails) regardless of how many times it is tossed, so the theoretical probability of Heads is 1/2."
+        },
+        {
+          "questionId": 7,
+          "selectedOption": "B",
+          "correctOption": "C",
+          "isCorrect": false,
+          "explanation": "The prime numbers on a standard six-sided die {1, 2, 3, 4, 5, 6} are 2, 3, and 5 (3 outcomes out of 6), giving 3/6."
+        },
+        {
+          "questionId": 8,
+          "selectedOption": "C",
+          "correctOption": "C",
+          "isCorrect": true,
+          "explanation": "The odd numbers on a standard six-sided die are 1, 3, and 5 (3 outcomes out of 6), so the probability is 3/6."
+        },
+        {
+          "questionId": 9,
+          "selectedOption": "D",
+          "correctOption": "D",
+          "isCorrect": true,
+          "explanation": "Between 1 and 12, the even numbers are 2, 4, 6, 8, 10, and 12 (6 outcomes out of 12), giving 6/12."
+        },
+        {
+          "questionId": 10,
+          "selectedOption": "C",
+          "correctOption": "C",
+          "isCorrect": true,
+          "explanation": "Between 1 and 12, the prime numbers are 2, 3, 5, 7, and 11 (remember 1 is not prime). That is 5 outcomes out of 12, so 5/12."
+        },
+        {
+          "questionId": 11,
+          "selectedOption": "A",
+          "correctOption": "A",
+          "isCorrect": true,
+          "explanation": "Rolling a 7 on a standard six-sided die is an impossible event, so its probability is 0."
+        },
+        {
+          "questionId": 12,
+          "selectedOption": "B",
+          "correctOption": "B",
+          "isCorrect": true,
+          "explanation": "Every probability value lies on the closed interval [0, 1], where 0 represents an impossible event and 1 represents a certain event."
+        }
+      ],
+      "correctCount": 9,
+      "totalQuestions": 12,
+      "scorePercent": 75,
+      "durationSeconds": 528,
+      "submittedAt": "2026-11-18T23:02:57.064Z"
+    }
+  ],
+  "showExplanationsToStudents": true
+}

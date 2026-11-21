@@ -1,0 +1,6 @@
+{
+  "name": "Probatica — Probability Learning & Quiz Portal",
+  "description": "Clean English-language probability learning platform with Student and Teacher portals, interactive simulations, and a 12-question empirical and theoretical probability quiz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

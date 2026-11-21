@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-mauve-50: #faf6f8;
+  --color-mauve-100: #f3eaf0;
+  --color-mauve-200: #ddbfcf;
+  --color-mauve-300: #cda3ba;
+  --color-mauve-400: #bc81a0;
+  --color-mauve-500: #9f6283;
+  --color-mauve-600: #874e6d;
+  --color-mauve-700: #6e3d58;
+  --color-mauve-800: #512e42;
+  --color-mauve-900: #2b1a24;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
